@@ -1,33 +1,16 @@
-*{
-  box-sizing: border-box;
+.parent{
+  background-color: pink;
 }
-.ss{
-  color: red;
-  display: inline;
-}
-#hah{
-  color: green;
-  display: inline;
-}
-body{
-  color: goldenrod;
-}
-.block1{
-  width: 200px;
+.child{
+  margin-top: 20px;
   height: 200px;
-  background-color: red;
-  margin: 20px;
-  border: 10px solid;
-  padding: 50px;
-  float: left;
+  background-color: teal;
 }
-.block2{
-  border: 10px solid;
-  width: 200px;
-  height: 200px;
-  background-color: green;
-  margin: 30px;
-  padding: 30px;
-  float: left;
+.clearfix:before,
+.clearfix:after{
+  content: '';
+  display: table;
+}
+.clearfix:after{
   clear: both;
 }
