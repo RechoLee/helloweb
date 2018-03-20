@@ -28,5 +28,6 @@ body{
   background-color: green;
   margin: 30px;
   padding: 30px;
-  float: right;
+  float: left;
+  clear: both;
 }
